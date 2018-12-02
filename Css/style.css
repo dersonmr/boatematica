@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0;}
+.menu ul li {
+    background-color: #6da3f9;
+    color: white;
+    float: left;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+}
+.menu ul li:hover {
+    color: #6da3f9;
+    background-color: white;
+}
