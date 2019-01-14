@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Menu principal */
+#logo-boa{
+    width: 70px;
+    height: 70px;
+    
+}
+p {
+  
+    line-height: 70px;
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul li{
+ 
+    background-color: cornflowerblue;
+    color: white;
+    float: left;
+    width: 200px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    position: relative;
+   
+}
+.menu ul li:hover{
+    background-color: cadetblue;
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul ul ul{
+    margin-left: 201px;
+    top: 0px;
+    position: absolute;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+#topo{
+    display: flex;
+    justify-content:space-between;
+}
+/* Fim do Menu */
