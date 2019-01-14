@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style_quadratica.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/f2.js"></script>
+    <title>HOME BOATEMÁTICA</title>
+</head>
+
+<body>
+    <div id="topo">
+        <div class="logo">
+            <img id="logo-boa" src="img/BOA.png" alt="">
+            <p>TEMÁTICA</p>
+        </div>
+
+        <nav class="menu">
+
+            <ul>
+                <li>HOME</li>
+                <li>MEUS ALUNOS</li>
+                <li>FUNÇÕES
+                    <ul>
+                        <li>Afim</li>
+                        <li>Quadrática
+                            <ul>
+                                <li>1</li>
+                                <li>2</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>QUEM SOU</li>
+                <li>CONTATO</li>
+            </ul>
+
+
+        </nav>
+    </div>
+</body>
+<section>
+    <script>
+    
+        </script>
+    <p>Digite os coeficientes da Função quadrática :</p>
+    <div class="teclado">
+        <input id="display" type="text" disabled>
+        <div class="row">
+                <input type="button" name="?" value="?">
+                <input type="button" name="?" value="?">
+                <input type="button" name="C" value="C">
+                <input type="button" name="apagar" value="apagar">
+                <input type="button" name="/" value="/">
+    
+            </div>
+        <div class="row">
+            <input type="button" name="?" value="?">
+            <input type="button" name="7" value="7" onclick="setValue(7)">
+            <input type="button" name="8" value="8" onclick="setValue(8)">
+            <input type="button" name="9" value="9" onclick="setValue(9)">
+            <input type="button" name="x" value="x" onclick="setValue('x')">
+
+        </div>
+        <div class="row">
+            <input type="button" name="X²" value="X²"onclick="setValue('X²')">
+            <input type="button" name="4" value="4" onclick="setValue(4)">
+            <input type="button" name="5" value="5" onclick="setValue(5)">
+            <input type="button" name="6" value="6" onclick="setValue(6)">
+            <input type="button" name="9" value="-" onclick="setValue('-')">
+        </div>
+        <div class="row">
+            <input type="button" name="X" value="X" onclick="setValue('X')">
+            <input type="button" name="1" value="1" onclick="setValue(1)">
+            <input type="button" name="2" value="2" onclick="setValue(2)">
+            <input type="button" name="3" value="3" onclick="setValue(3)">
+            <input type="button" name="+" value="+" onclick="setValue('+')">
+
+        </div>
+        <div class="row">
+            <input type="button" name="(" value="(">
+            <input type="button" name=")" value=")">
+            <input type="button" name="0" value="0">
+            <input type="button" name="," value=",">
+            <input type="button" name="=" value="igual" onclick="resulta('=')">
+
+        </div>
+    </div>
+    <div id="delta">
+        <p>O valor do delta é:</p>
+        <input type="text" value="">
+
+    </div>
+    <div>
+        <p id="teste"></p>
+    </div>
+</section>
+
+</html>
